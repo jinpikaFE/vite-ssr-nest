@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import viteSSR from 'vite-ssr/plugin';
-import proxy from './config/proxy';
-import api from './node-server/api';
+import proxy from './src/client/config/proxy';
+import api from './src/client/node-server/api';
 import path from 'path';
 
 export default () =>
@@ -36,11 +36,11 @@ export default () =>
     ],
     resolve: {
       extensions: [
-        '.mjs',
+        '.tsx',
+        '.ts',
         '.js',
         '.jsx',
-        '.ts',
-        '.tsx',
+        '.mjs',
         '.json',
         '.sass',
         '.scss',
