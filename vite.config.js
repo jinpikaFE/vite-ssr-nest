@@ -7,6 +7,7 @@ import path from 'path';
 
 export default () =>
   defineConfig({
+    root: './index.html',
     server: {
       fs: {
         // The API logic is in outside of the project
