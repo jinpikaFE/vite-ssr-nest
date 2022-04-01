@@ -1,4 +1,4 @@
-# nes-vite-ssr
+# nest-vite-ssr
 
 ## 项目拉取
 
