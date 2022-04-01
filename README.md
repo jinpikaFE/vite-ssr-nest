@@ -3,7 +3,7 @@
 ## 项目拉取
 
 ```ssh
-git clone https://github.com/jinpikaFE/vite-ssr-nust.git
+git clone https://github.com/jinpikaFE/vite-ssr-nest.git
 ```
 
 ## 安装依赖
